@@ -10,25 +10,10 @@ from datetime import datetime
 # --- CONFIGURATION SECTION ---
 # List of your 4 RTSP URLs
 RTSP_URLS = [
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/3602",
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/2302", # Replace with Camera 2
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/1802", # Replace with Camera 3
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/1602",
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/1402",
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/2402",
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/3202",
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/4402",
-        # Replace with Camera 4
-
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/102",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/302",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/402",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/502",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/602",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/702",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/802",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/902",
-       # Replace with Camera 4
+    "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/4202",
+    "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/4202",
+    "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/4202",
+    "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/4202"
 ]
 
 CAPTURE_INTERVAL = 10 
