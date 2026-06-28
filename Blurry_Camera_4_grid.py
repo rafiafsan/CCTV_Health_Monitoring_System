@@ -6,10 +6,10 @@ from datetime import datetime
 # --- CONFIGURATION SECTION ---
 # List of your 4 RTSP URLs
 RTSP_URLS = [
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/4202",
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/1802", # Replace with Camera 2
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/1702", # Replace with Camera 3
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/2402"
+    "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/2301",
+    "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/2402",
+    "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/2501",
+    "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/2601"
         # Replace with Camera 4
 ]
 
