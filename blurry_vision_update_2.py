@@ -7,37 +7,11 @@ import threading
 
 os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;tcp|timeout;5000000"
 
-# --- CONFIGURATION ---
-# USER = "PRGAI"
-# PASS = "prgai@123"
-# IP_BASE = "192.168.141.2"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 
-# IP_BASE = "192.168.61.10"
-# USER = "PRGAI"
-# PASS = "Acctv@1981"
-# CAM_NUMBERS = [8]
-
-# IP_BASE = "10.1.5.207"
-# USER = "PRGAI"
-# PASS = "P!P@prgai26"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
-
-IP_BASE = "192.168.186.10"
-USER = "amin"
-PASS = "brtl@98987"
-CAM_NUMBERS = "1,2,3,4,5,6,7,8"
-
-# IP_BASE = "10.1.16.59"
-# USER = "PRGAI"
-# PASS = "PRG@ai123"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-
-# IP_BASE = "192.168.254.3"
-# USER = "Admin"
-# PASS = "prg@welc0me"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,]
-
+IP_BASE = "192.168.x.x"
+USER = "USER"
+PASS = "PASSWORD"
+CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10]
 
 CAPTURE_INTERVAL = 5
 LEARNING_FRAMES = 20
