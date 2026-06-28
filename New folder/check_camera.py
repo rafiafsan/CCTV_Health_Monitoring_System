@@ -1,15 +1,3 @@
-# ==============================
-# IP_BASE = "192.168.254.3"
-# USER = "Admin"
-# PASS = "prg@welc0me"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,] 
-
-# IP_BASE = "192.168.61.10"
-# USER = "PRGAI"
-# PASS = "Acctv@1981"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
-# CELL_W, CELL_H = 320, 240 
-
 import cv2
 import numpy as np
 import threading
@@ -17,7 +5,7 @@ import time
 import math
 
 # --- CONFIGURATION ---
-RTSP_TEMPLATE = "rtsp://prgai:prgai@123@192.168.141.20:554/Streaming/Channels/{cam_no}02" # 02 for Substream, 01 for Main
+RTSP_TEMPLATE = "rtsp://USER:PASSWORD@192.168.x.x:554/Streaming/Channels/{cam_no}02" # 02 for Substream, 01 for Main
 CAM_NUMBERS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
 CELL_W, CELL_H = 320, 240  # Resolution of each grid cell
 
