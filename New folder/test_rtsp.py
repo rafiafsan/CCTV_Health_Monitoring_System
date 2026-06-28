@@ -5,7 +5,7 @@ import threading
 
 os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;tcp|stimeout;5000000|timeout;5000000"
 
-url = "rtsp://admin:brtl%4098987@192.168.186.10:554/Streaming/Channels/1001"
+url = "rtsp://USER:PASSWORD@192.168.x.x:554/Streaming/Channels/1001"
 
 print("Testing single connection...")
 start = time.time()
