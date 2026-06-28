@@ -1,4 +1,12 @@
+
 # 🎥 CCTV Health Monitoring System
+
+<p align="center">
+  <img src="./docs/banner.png" alt="CCTV Health Monitoring System Banner" width="100%">
+</p>
+### **AI-Powered Multi-Camera CCTV Monitoring, Health Analysis & Intelligent Alerting**
+Real-time monitoring of hundreds of enterprise CCTV streams using computer vision edge analytics, automatic camera health diagnostics, statistical anomaly detection, and PostgreSQL-based historical logging.
+
 
 ### **AI-Powered Multi-Camera CCTV Monitoring, Health Analysis & Intelligent Alerting**
 Real-time monitoring of hundreds of enterprise CCTV streams using computer vision edge analytics, automatic camera health diagnostics, statistical anomaly detection, and PostgreSQL-based historical logging.
