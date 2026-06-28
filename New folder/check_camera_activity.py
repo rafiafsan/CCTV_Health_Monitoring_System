@@ -3,9 +3,9 @@ import urllib.parse
 import os
 
 # --- CONFIGURATION ---
-IP = "192.168.254.3"
-USER = "admin"
-PASS = "prg@welc0ome"
+IP = "192.168.x.x"
+USER = "USER"
+PASS = "PASSWORD"
 MAX_CHANNELS = 20
 
 # Force TCP to prevent packet loss during the scan
