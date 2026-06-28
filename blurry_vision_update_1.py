@@ -9,11 +9,10 @@ import threading
 os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;tcp|timeout;5000000"
 
 # --- CONFIGURATION ---
-USER = "admin"
-PASS = "brtl@98987"
-IP_BASE = "192.168.186.10"
-# Add your camera numbers here (e.g., 37, 23, 18, 16...)
-CAM_NUMBERS = [36, 23, 18, 16, 14, 24, 32, 44, 37, 22, 17, 15, 13, 25, 33, 45] 
+IP_BASE = "192.168.x.x"
+USER = "USER"
+PASS = "PASSWORD"
+CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10]
 
 CAPTURE_INTERVAL = 5
 LEARNING_FRAMES = 50
