@@ -6,9 +6,9 @@ import urllib.parse
 os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;tcp"
 
 # 2. Properly encoded URL (replacing @ with %40 in the password)
-USER = "prgai"
-PASS = "prgai@123" # Encoded @
-IP = "192.168.141.20"
+USER = "USER"
+PASS = "PASSWORD" # Encoded @
+IP = "192.168.x.x"
 PORT = "554"
 CHANNEL = "102" # 102 is usually the sub-stream (easier to load)
 
