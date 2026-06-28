@@ -3,32 +3,13 @@ import numpy as np
 import time
 from datetime import datetime
 
-# IP_BASE = "192.168.61.10"
-# USER = "PRGAI"
-# PASS = "Acctv@1981"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
 # --- CONFIGURATION SECTION ---
 # List of your 4 RTSP URLs
 RTSP_URLS = [
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/3602",
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/2302", # Replace with Camera 2
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/1802", # Replace with Camera 3
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/1602",
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/1402",
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/2402",
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/3202",
-    "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/4402",
-        # Replace with Camera 4
-
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/102",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/302",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/402",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/502",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/602",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/702",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/802",
-    # "rtsp://PRGAI:Acctv@1981@192.168.61.10:554/Streaming/Channels/902",
-       # Replace with Camera 4
+    "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/2301",
+    "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/2402",
+    "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/2501",
+    "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/2601"
 ]
 
 CAPTURE_INTERVAL = 10 
