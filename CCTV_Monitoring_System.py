@@ -45,60 +45,10 @@ def is_camera_online(url, timeout=1.0):
     except:
         return False
 
-# TEST-1
-# USER = "PRGAI"
-# PASS = "prgai@123"
-# IP_BASE = "192.168.141.2"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
-
-# TEST-2
-# IP_BASE = "10.1.5.207"
-# USER = "PRGAI"
-# PASS = "P!P@prgai26"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
-
-# TEST-3
-# IP_BASE = "10.1.16.59"
-# USER = "PRGAI"
-# PASS = "PRG@ai123"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40]
-
-# TEST-4
-# IP_BASE = "192.168.186.10"
-# USER = "admin"
-# PASS = "brtl@98987"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40]
-
-# TEST-5
-# IP_BASE = "10.1.5.204"
-# USER = "PRGAI"
-# PASS = "P!P@prgai26"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18,19,20]
-
-# TEST-6
-# IP_BASE = "10.1.5.215"
-# IP_BASE = "10.1.5.210"
-# IP_BASE = "10.1.5.213"
-# IP_BASE = "10.1.5.200"
-# IP_BASE = "10.1.8.4"
-# IP_BASE = "10.1.8.32"
-# IP_BASE = "10.1.8.8"
-# USER = "PRGAI"
-# PASS = "P!P@prgai26"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18,19,20]
-
-
-# stream timeout triggerd / working
-# IP_BASE = "192.168.254.3"
-# USER = "admin"
-# PASS = "prg@welc0me"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8]
-
-# camera acess problem
-# IP_BASE = "192.168.61.10"
-# USER = "PRGAI"
-# PASS = "Acctv@1981"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10]
+IP_BASE = "192.168.x.x"
+USER = "USER"
+PASS = "PASSWORD"
+CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10]
 
 CAPTURE_INTERVAL = 5
 LEARNING_FRAMES = 50
@@ -111,19 +61,19 @@ CELL_W, CELL_H = 320, 240
 TRAINING_MODE = False
 
 DB_CONFIG = {
-    "dbname": "cctv_monitor",
-    "user": "postgres",
-    "password": "postgres",
+    "dbname": "DBNAME",
+    "user": "USER",
+    "password": "PASSWORD",
     "host": "localhost",
     "port": "5432",
 }
 
 CAMERA_DB_CONFIG = {
-    "dbname": "cctv_ai",
-    "user": "postgres",
-    "password": "123456",
-    "host": '172.17.4.199', 
-    "port": "5432",               
+    "dbname": "DBNAME",
+    "user": "USER",
+    "password": "PASSWORD",
+    "host": "localhost",
+    "port": "5432",
 }
 
 def get_conn():
