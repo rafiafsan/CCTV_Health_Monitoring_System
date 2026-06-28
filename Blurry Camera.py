@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 
-RTSP_URL = "rtsp://admin:brtl@98987@192.168.186.10:554/Streaming/Channels/2301"
+RTSP_URL = "rtsp://USERNAME:PASSWORD@192.168.x.x:554/Streaming/Channels/2301"
 # RTSP_URL = "D:\\dataset\\Blurry\\VID_20260126_211625.mp4"
 
 CAPTURE_INTERVAL = 120
