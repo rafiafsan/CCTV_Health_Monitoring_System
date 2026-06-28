@@ -8,69 +8,11 @@ import threading
 
 os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;tcp|timeout;5000000"
 
-# --- CONFIGURATION ---
-# USER = "admin"
-# PASS = "brtl@98987"
-# IP_BASE = "192.168.186.10"
-# # Add your camera numbers here (e.g., 37, 23, 18, 16...)
-# CAM_NUMBERS = [36, 23, 18, 16, 14, 24, 32, 44, 37, 22, 17, 15, 13, 25, 33, 45] 
 
-# IP_BASE = "192.168.61.10"
-# USER = "PRGAI"
-# PASS = "Acctv@1981"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
-
-# IP_BASE = "192.168.186.10"
-# USER = "amin"
-# PASS = "brtl@98987"
-# CAM_NUMBERS = "1,2,3,4,5,6,7,8"
-
-
-# USER = "PRGAI"
-# PASS = "prgai@123"
-# IP_BASE = "192.168.141.2"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-
-# camera acess problem
-# IP_BASE = "192.168.61.10"
-# USER = "PRGAI"
-# PASS = "Acctv@1981"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
-
-# IP_BASE = "10.1.5.207"
-IP_BASE = "10.1.5.208"
-# IP_BASE = "10.1.5.209" 
-# IP_BASE = "10.1.8.37"
-USER = "PRGAI"
-PASS = "P!P@prgai26"
+IP_BASE = "192.168.X.X"
+USER = "ABCD"
+PASS = "xyxyxyxyxyx"
 CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
-
-# IP_BASE = "10.1.16.59"
-# USER = "PRGAI"
-# PASS = "PRG@ai123"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-
-# IP_BASE = "192.168.254.3"
-# USER = "admin"
-# PASS = "prg@welc0me"
-# CAM_NUMBERS = [1,2,3,4,5,6,7,8]
-
-#stream timout trigger
-# IP_BASE = "192.168.150.6"
-# USER = "prgai"
-# PASS = "ai@123456"
-# CAM_NUMBERS = "1,2,3,4,5,6,7,8,9,10"
-
-#not loading
-# IP_BASE = "192.168.141.20"
-# USER = "PRGAI"
-# PASS = "prgai@123"
-# CAM_NUMBERS = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20"
-
-# IP_BASE = "192.168.186.10"
-# USER = "amin"
-# PASS = "brtl@98987"
-# CAM_NUMBERS = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20"
 
 
 CAPTURE_INTERVAL = 5
