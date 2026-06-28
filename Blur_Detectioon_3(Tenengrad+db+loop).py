@@ -29,11 +29,11 @@ CELL_W, CELL_H = 320, 240
 TRAINING_MODE = False
 
 DB_CONFIG = {
-    "dbname": "cctv_monitor",
-    "user": "postgres",
-    "password": "postgres",
+    "dbname": "DBNAME",
+    "user": "USER",
+    "password": "PASSWORD",
     "host": "localhost",
-    "port": "5432"
+    "port": "5432",
 }
 
 def get_conn():
